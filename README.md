@@ -5,7 +5,11 @@ This repository documents my **daily JavaScript learning journey**, starting fro
 ## 🗓 Learning Plan
 - Day 01: JavaScript Basics✅
 - Day 02: Operators & Conditions✅
+<<<<<<< HEAD
 - Day 03: Loops✅
+=======
+- Day 03: Loops
+>>>>>>> 0b2b745c86d8e5ad1e66962804cbf1a7c4dab750
 - Day 04: Functions
 - Day 05: Arrays
 - Day 06: Objects
