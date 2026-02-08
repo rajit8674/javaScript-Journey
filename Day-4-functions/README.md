@@ -1,4 +1,4 @@
-# Day 04 – Functions 🚀
+# Day 04 – Functions 
 
 ## Topics Covered
 - Function declaration

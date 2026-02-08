@@ -6,8 +6,7 @@ This repository documents my **daily JavaScript learning journey**, starting fro
 - Day 01: JavaScript Basics✅
 - Day 02: Operators & Conditions✅
 - Day 03: Loops✅
-- Day 03: Loops
-- Day 04: Functions
+- Day 04: Functions✅
 - Day 05: Arrays
 - Day 06: Objects
 - Day 07: Mini Project
