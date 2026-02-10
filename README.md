@@ -8,7 +8,7 @@ This repository documents my **daily JavaScript learning journey**, starting fro
 - Day 03: Loops✅
 - Day 04: Functions✅
 - Day 05: Arrays✅
-- Day 06: Objects
+- Day 06: Objectss✅
 - Day 07: Mini Project
 - Day 08–15: DOM Manipulation
 - Day 16–25: ES6, Async JS, APIs
