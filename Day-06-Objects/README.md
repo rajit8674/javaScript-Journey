@@ -1,4 +1,4 @@
-# Day 06 – Objects 🚀
+# Day 06 – Objects 
 
 ## Topics Covered
 - Object creation
