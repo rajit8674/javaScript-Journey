@@ -1,4 +1,4 @@
-# Day 07 – Mini Project 🚀
+# Day 07 – Mini Project 
 
 ## Project: Student Result System
 
