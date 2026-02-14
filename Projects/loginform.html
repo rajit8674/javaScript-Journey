@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Login Form</h2>
+
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Enter Email" />
+      <input type="password" id="password" placeholder="Enter Password" />
+      <button type="submit">Login</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+
+  <script>
+    let form = document.querySelector("#loginForm");
+let email = document.querySelector("#email");
+let password = document.querySelector("#password");
+let message = document.querySelector("#message");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  if (email.value === "" || password.value === "") {
+    message.textContent = "All fields are required!";
+    message.style.color = "red";
+  } 
+  else if (password.value.length < 6) {
+    message.textContent = "Password must be at least 6 characters!";
+    message.style.color = "red";
+  } 
+  else {
+    message.textContent = "Login Successful ";
+    message.style.color = "green";
+  }
+});
+
+  </script>
+</body>
+</html>
