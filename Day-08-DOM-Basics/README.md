@@ -1,4 +1,4 @@
-# Day 08 – DOM Basics 🚀
+# Day 08 – DOM Basics 
 
 ## Topics Covered
 - What is DOM
