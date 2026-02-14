@@ -14,13 +14,13 @@ button.addEventListener("click", function () {
 
 //form 
 let form = document.querySelector("#myForm");
-let input = document.querySelector("#username");
-let output = document.querySelector("#output");
+let username = document.querySelector("#username");
+let result = document.querySelector("#output");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault(); // page reload rokta hai
 
-  output.textContent = "Welcome " + input.value;
+  result.textContent = "Welcome " + input.value;
 });
 
 
